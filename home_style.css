@@ -1,0 +1,165 @@
+/* 轮播图结束 */
+.home-carousel {
+    /*border: solid;*/
+    line-height: 1rem;
+}
+.my-carousel{
+    top: -.2rem;
+}
+@media screen and (min-width: 768px){
+    .my-carousel{
+        top:0;
+    }
+}
+.home-carousel-indicators-ol {
+    display: flex;
+    justify-content: center;
+}
+
+.home-carousel-indicators-ol li {
+    display: block;
+    float: left;
+}
+
+.home-carousel-caption {
+    height: 17.7vw;
+    font-size: .3rem;
+    text-align: right;
+}
+
+.home-carousel-caption-div1 {
+    font-size: 2vw;
+}
+
+.home-carousel-caption-div2 {
+    font-size: 3vw;
+}
+@media screen and (max-width: 767px) {
+    .home-carousel-caption-div1 {
+        /*font-size: .08rem;*/
+        font-size: 2vw;
+    }
+    .home-carousel-caption-div2 {
+        /*font-size: .15rem;*/
+        font-size: 3vw;
+    }
+}
+/* 轮播图结束 */
+.stu-subrow{
+    /*margin-top: 1rem;*/
+    margin-top: .7rem;
+}
+.stu-subcol{
+    /*text-align: center;*/
+    margin-top: .3rem;
+}
+@media screen and (max-width: 767px) {
+    .stu-subcol{
+        text-align: center;
+        /*margin-top: .3rem;*/
+    }
+}
+.word{
+    font-size:.16rem;
+}
+.intro{
+    text-align: center;
+    margin-top: 0.6rem;
+    font-size: .12rem;
+}
+.stu{
+    margin-top: .3rem;
+    margin-left: .1rem;
+}
+.stu div div,.stu div{
+    font-size: .14rem;
+}
+.stu div{
+    margin-top: .1rem;
+}
+
+.highly{
+    text-align: center;
+    height: 0.8rem;
+    line-height: 2.2rem;
+    background: url(images/home_page_rocket.png) no-repeat;
+    background-size: .4rem 0.6rem;
+    background-position: top;
+}
+.standard{
+    text-align: center;
+    height: 0.8rem;
+    line-height: 2.2rem;
+    background: url(images/home_page_archive.png) no-repeat;
+    background-size: .6rem 0.5rem;
+    background-position: top;
+}
+.connection{
+    text-align: center;
+    height: 0.8rem;
+    line-height: 2.2rem;
+    background: url(images/home_page_connection.png) no-repeat;
+    background-size: .6rem 0.6rem;
+    background-position: top;
+}
+.third_col{
+    border-right: dashed;
+}
+.person_icon{
+    background: url(images/home_page_person_num_icon.png) no-repeat;
+
+}
+
+/* 如何学习 */
+.learn-subcon{
+    width: 100%;
+}
+.learn-subrow{
+    display: flex;
+    align-items: center;
+}
+.learn-subrow li{
+    list-style: none;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+.learn-title{
+    font-size: .16rem;
+}
+.learn-num1{
+
+}
+.learn-num2{
+
+}
+.learn-num3{
+
+}
+.learn-num4{
+
+}
+.learn-num{
+    text-align: center;
+    float: left;
+    line-height: .37rem;
+    width: .35rem;
+    height: .35rem;
+    font-size: .14rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #e6e6e6;
+}
+.learn-word{
+    border: solid;
+    width: 1.2rem;
+    font-size: .1rem;
+}
+.arrow{
+    /*display: block;*/
+    /*float: left;*/
+    width: .2rem;
+}
+
+
+.clear{
+    clear: both;
+}
